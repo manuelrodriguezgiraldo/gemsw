@@ -20,8 +20,8 @@
 
     <PosPartSection label="ge0.xml">
         
-        <PosPart copyNumber="1">
-            <rParent name="ge0:GE0P"/>
+        <PosPart copyNumber="8">
+            <rParent name="ge0:GE0N"/>
             <rChild name="ge0:GE0Box"/>
             <rRotation name="RotationSrz" />
             <Translation x="0" y="0" z="120" />

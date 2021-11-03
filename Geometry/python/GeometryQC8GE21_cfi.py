@@ -124,10 +124,11 @@ XMLIdealGeometryESSource = cms.ESSource("XMLIdealGeometryESSource",
         'Geometry/MTDSimData/data/v2/mtdProdCuts.xml',
         'Geometry/CMSCommonData/data/FieldParameters.xml',
         ## these are added on the fly
-        'gemsw/Geometry/data/gem11/muonNumbering.xml',
-        'gemsw/Geometry/data/gem11/gem11S_c2_r1.xml',
-        #'gemsw/Geometry/data/gem11/gem11S_c2_r3.xml',
-        #'gemsw/Geometry/data/gem11/gem11S_c2_r5.xml',
+        'gemsw/Geometry/data/gem21/muonNumbering.xml',
+       	#'gemsw/Geometry/data/gem21/gem21S_c1_r1.xml',
+	    'gemsw/Geometry/data/gem21/gem21S_c1_r2.xml',
+        #'gemsw/Geometry/data/testbeam/tbGE21.xml'
+
     ),
     rootNodeName = cms.string('cms:OCMS')
 )
